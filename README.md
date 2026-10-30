@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FXMacroData is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://fxmacrodata.com/
+FXMacroData provides real-time macroeconomic data APIs for foreign exchange (FX) and quantitative research. Their platform offers extensive coverage of FX pairs, commodities, bond yields, and macro indicators, delivering data via REST, WebSocket, and streaming endpoints. Users can access dashboards, backtesting tools, and AI-driven insights, with options for CSV/JSON export, widgets, and integration with popular platforms. The service targets traders, analysts, and developers needing up-to-date market data for building trading models and research applications.
+
+**Areas:** Company · Finance · Data · API · FX
+
+## FXMacroData on APIs.io
+
+Everything profiled for FXMacroData is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fxmacrodata/](https://apis.io/providers/fxmacrodata/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [FXMacroData Announcements API](https://apis.io/apis/fxmacrodata/fxmacrodata-announcements-api/) — Primary product: macroeconomic announcement time series.
+- [FXMacroData Calendar API](https://apis.io/apis/fxmacrodata/fxmacrodata-calendar-api/) — Standalone economic and policy release calendar endpoint spanning announcements and central-bank decision timing.
+- [FXMacroData Commodities API](https://apis.io/apis/fxmacrodata/fxmacrodata-commodities-api/) — Commodity and energy datasets, including OPEC and planned commodity price endpoints.
+- [FXMacroData Data Catalogue API](https://apis.io/apis/fxmacrodata/fxmacrodata-data-catalogue-api/) — Cross-domain metadata index for available indicators.
+- [FXMacroData Factors API](https://apis.io/apis/fxmacrodata/fxmacrodata-factors-api/) — The factors API from FXMacroData — 1 operation(s) for factors.
+- [FXMacroData Fx Markets API](https://apis.io/apis/fxmacrodata/fxmacrodata-fx-markets-api/) — FX market-state datasets including spot FX, market sessions, risk sentiment, and COT positioning.
+- [FXMacroData Health API](https://apis.io/apis/fxmacrodata/fxmacrodata-health-api/) — Service health status endpoint.
+- [FXMacroData Monetary Policy API](https://apis.io/apis/fxmacrodata/fxmacrodata-monetary-policy-api/) — The monetary_policy API from FXMacroData — 1 operation(s) for monetary_policy.
+- [FXMacroData Predictions API](https://apis.io/apis/fxmacrodata/fxmacrodata-predictions-api/) — Forecasts/predictions for macroeconomic announcements, linked to the unique announcement they target via ``announcement_id``. Covers market consensus,…
+- [FXMacroData Press Releases API](https://apis.io/apis/fxmacrodata/fxmacrodata-press-releases-api/) — Official central-bank press-release archive endpoints.
+- [FXMacroData Settlement API](https://apis.io/apis/fxmacrodata/fxmacrodata-settlement-api/) — Settlement records for event contracts on official macro releases: first-print value, latest value, release timing (scheduled, actual release window,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Fxmacrodata Webhooks](https://apis.io/asyncapis/fxmacrodata/fxmacrodata-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fxmacrodata Agentic Access](https://apis.io/agentic-access/fxmacrodata/fxmacrodata-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnnouncementResponse](https://apis.io/schemas/fxmacrodata/fxmacrodata-announcement-response/)
+- [CommodityResponse](https://apis.io/schemas/fxmacrodata/fxmacrodata-commodity-response/)
+- [COTResponse](https://apis.io/schemas/fxmacrodata/fxmacrodata-cotresponse/)
+- [ForexResponse](https://apis.io/schemas/fxmacrodata/fxmacrodata-forex-response/)
+- [PredictionsResponse](https://apis.io/schemas/fxmacrodata/fxmacrodata-predictions-response/)
+- [RateDifferentialResponse](https://apis.io/schemas/fxmacrodata/fxmacrodata-rate-differential-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fxmacrodata Context](https://apis.io/jsonld/fxmacrodata/fxmacrodata-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FXMacroData API Rules](https://apis.io/rules/fxmacrodata/fxmacrodata-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fxmacrodata Authentication](https://apis.io/security/fxmacrodata/fxmacrodata-authentication/)
+- [Fxmacrodata Domain Security](https://apis.io/security/fxmacrodata/fxmacrodata-domain-security/)
+- [Fxmacrodata Vulnerability Disclosure](https://apis.io/security/fxmacrodata/fxmacrodata-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fxmacrodata Plans Pricing](https://apis.io/plans/fxmacrodata/fxmacrodata-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fxmacrodata.com/)
+- [Documentation](https://fxmacrodata.com/documentation/reference)
+- [Getting started](https://fxmacrodata.com/get-started)
+- [API reference](https://fxmacrodata.com/documentation/reference)
+- [Pricing](https://fxmacrodata.com/subscribe)
+- [Support](https://fxmacrodata.com/support)
+- [Changelog](https://fxmacrodata.com/documentation/changelog)
+- [Terms of service](https://fxmacrodata.com/terms)
+- [Privacy policy](https://fxmacrodata.com/privacy)
+- [Status](https://fxmacrodata.com/status)
+
+## API Evangelist rating
+
+**Kin Score 67.6** — exemplar · rubric 0.24.0 · scored 2026-10-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 66.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 57.9 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 60.0 |
+
+**Agent readiness 62.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fxmacrodata/](https://apis.io/providers/fxmacrodata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FXMacroData: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fxmacrodata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
